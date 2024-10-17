@@ -1,0 +1,98 @@
+/* RecipeSubmission.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .recipe-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .spice-level {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+  }
+  
+  .spice-group label {
+    font-weight: normal;
+  }
+  
+  .subtext {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .spice-level {
+      flex-direction: column;
+    }
+  
+    .form-container {
+      padding: 10px;
+    }
+  
+    .submit-button {
+      width: 100%;
+    }
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;  /* Adjust this to your desired color */
+    margin: 20px 0;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 5px;
+  }

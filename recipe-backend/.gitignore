@@ -1,1 +1,24 @@
+# dependencies
 /node_modules
+
+# production
+/build
+/dist
+
+# cache
+/.cache
+
+# misc
+.DS_Store
+*.log
+
+# environment files
+.env
+
+# Ensure critical files are not ignored
+!.gitignore
+!app.js
+!server.js
+!routes/*
+!models/*
+!package.json
